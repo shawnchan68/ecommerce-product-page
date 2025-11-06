@@ -1,4 +1,3 @@
-import '../App.css'; // Importing CSS for styling
 import React, { useState } from 'react'; // Import useState hook
 
 // Product data (This will eventually come from an API)
@@ -78,7 +77,7 @@ function ProductPage() {
         <ProductInfo product={product} />
         {/* Placeholder for future features */}
         <div className="quantity-placeholder-section">
-          <p className="quantity-placeholder-text">Quantity: [Placeholder for Quantity Selector]Sophia version</p>
+          <p className="quantity-placeholder-text">Quantity: [Placeholder for Quantity Selector]</p>
           <button className="add-to-cart-button">
             Add to Cart
           </button>
